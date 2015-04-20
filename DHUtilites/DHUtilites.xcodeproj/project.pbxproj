@@ -13,7 +13,7 @@
 		6220E8191AE57228000E41F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6220E8181AE57228000E41F2 /* Images.xcassets */; };
 		6220E81C1AE57228000E41F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6220E81A1AE57228000E41F2 /* LaunchScreen.xib */; };
 		6220E8281AE57228000E41F2 /* DHUtilitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6220E8271AE57228000E41F2 /* DHUtilitesTests.swift */; };
-		6220E8321AE572B3000E41F2 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 6220E8311AE572B3000E41F2 /* Utilities */; };
+		62BB81E51AE5771800D37DCA /* DiceUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BB81E41AE5771800D37DCA /* DiceUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		6220E8211AE57228000E41F2 /* DHUtilitesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHUtilitesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6220E8261AE57228000E41F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6220E8271AE57228000E41F2 /* DHUtilitesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHUtilitesTests.swift; sourceTree = "<group>"; };
-		6220E8311AE572B3000E41F2 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
+		62BB81E41AE5771800D37DCA /* DiceUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		6220E80E1AE57228000E41F2 /* DHUtilites */ = {
 			isa = PBXGroup;
 			children = (
-				6220E8311AE572B3000E41F2 /* Utilities */,
+				62BB81E31AE5771800D37DCA /* Utilities */,
 				6220E8111AE57228000E41F2 /* AppDelegate.swift */,
 				6220E8131AE57228000E41F2 /* ViewController.swift */,
 				6220E8151AE57228000E41F2 /* Main.storyboard */,
@@ -113,6 +113,14 @@
 				6220E8261AE57228000E41F2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62BB81E31AE5771800D37DCA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				62BB81E41AE5771800D37DCA /* DiceUtilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6220E8171AE57228000E41F2 /* Main.storyboard in Resources */,
-				6220E8321AE572B3000E41F2 /* Utilities in Resources */,
 				6220E81C1AE57228000E41F2 /* LaunchScreen.xib in Resources */,
 				6220E8191AE57228000E41F2 /* Images.xcassets in Resources */,
 			);
@@ -218,6 +225,7 @@
 			files = (
 				6220E8141AE57228000E41F2 /* ViewController.swift in Sources */,
 				6220E8121AE57228000E41F2 /* AppDelegate.swift in Sources */,
+				62BB81E51AE5771800D37DCA /* DiceUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

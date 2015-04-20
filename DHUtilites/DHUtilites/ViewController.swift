@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-  @IBOutlet weak var roleLabel: UILabel!
+  @IBOutlet weak var rollLabel: UILabel!
   var dice = DiceUtilities(gameLevel: .Easy)
   
   override func viewDidLoad() {
@@ -26,10 +26,10 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-  @IBAction func roleDice(sender: UIButton) {
+  @IBAction func rollDice(sender: UIButton) {
     
-    roleLabel.text =  "\(dice.getActionPoints())"
-    
+    rollLabel.text =  "\(dice.getActionPoints())"
+
     
   }
 
